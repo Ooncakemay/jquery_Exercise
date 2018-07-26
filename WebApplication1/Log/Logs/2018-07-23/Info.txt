@@ -1,0 +1,2 @@
+2018-07-23 17:22:34.0437 | INFO | WebApplication1.Controllers.MemberSearchController | 進入首頁，接到參數strName=鄭苓婕, strContactID = 99,  strMobile = 988503563, strPhone = 988503563, strEMail  = masqueradesheep@gmail.com 
+

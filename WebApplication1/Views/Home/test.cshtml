@@ -1,0 +1,57 @@
+﻿
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+    <div class="container">
+        <div class="name">
+            會員姓名:
+            <input type="text" name='name' value=""><br> 會員會籍:
+            <select name="club">
+                <option value="0">ALL</option>
+                <option value="1">一般會員</option>
+                <option value="2">VIP會員</option>
+                <option value="3">待驗證會員</option>
+                <option value="4">非會員</option>
+            </select><br>
+        </div>
+        <div class="birth">
+            會員生日月:
+            <input type="checkbox" name="birth" value="1"> 1
+            <input type="checkbox" name="birth" value="2"> 2
+            <input type="checkbox" name="birth" value="3"> 3
+            <input type="checkbox" name="birth" value="4"> 4
+            <input type="checkbox" name="birth" value="5"> 5
+            <input type="checkbox" name="birth" value="6"> 6
+            <input type="checkbox" name="birth" value="7"> 7
+            <input type="checkbox" name="birth" value="8"> 8
+            <input type="checkbox" name="birth" value="9"> 9
+            <input type="checkbox" name="birth" value="10"> 10
+            <input type="checkbox" name="birth" value="11"> 11
+            <input type="checkbox" name="birth" value="12"> 12<br>
+        </div>
+        <div class="gender">
+            會員性別:
+            <input type="radio" name="gender" value="male"> 男
+            <input type="radio" name="gender" value="female"> 女<br>
+        </div>
+        <button type="button">送出!</button>
+    </div>
+
+<script type="text/javascript">
+            $(document).ready(function () {
+                $('button').click(function () {
+                    alert($("input[name$='name']").val());
+                    alert($("select[name$='club'] option:selected").val());
+                    var val = [];
+                    $(':checkbox:checked').each(function (i) {
+                        val[i] = $(this).val();
+                    });
+                    alert(val);
+                    alert($('input[name=gender]:checked').val());
+
+                });
+            });
+</script>

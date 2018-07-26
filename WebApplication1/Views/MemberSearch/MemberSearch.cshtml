@@ -1,0 +1,502 @@
+﻿
+@{
+    ViewBag.Title = "MemberSearch";
+}
+
+<div id="tbResult" aria-labelledby="ui-id-3" class="ui-tabs-panel ui-widget-content ui-corner-bottom" role="tabpanel" aria-expanded="true" aria-hidden="false" style="display: block;">
+                        <div class="tbContent">
+                            <div style=" margin-bottom 10px;">共 9101  筆資料</div>
+                            <table class="data1" width="100%" border="0" cellspacing="0" cellpadding="0">
+                                <tbody>
+                                    <tr style="border-bottom: 1px solid black;">
+                                        <th style="width: 50px" scope="col">
+                                            序號
+                                        </th>
+                                        <th style="width: 100px" scope="col">
+                                            客戶代碼
+                                        </th>
+                                        <th scope="col">
+                                            會籍
+                                        </th>
+                                        <th scope="col">
+                                            會員姓名
+                                        </th>
+                                        <th scope="col">
+                                            手機號碼
+                                        </th>
+                                        <th scope="col">
+                                            市話號碼
+                                        </th>
+                                        <th style="width: 20%" scope="col">
+                                            E-mail
+                                        </th>
+                                        <th>
+                                            重寄驗證信
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            1
+                                        </td>
+                                        <td style="width: 12%; word-break: break-all; word-wrap: break-word;">
+                                            <a href="http://mjncrm-qa.3rdchannel.com.tw/BackWeb/Member/MemberInfo?MemberID=1bd45c45-85b5-44af-a8b9-3831ef60633e">Z0020888</a>
+                                        </td>
+                                        <td>
+                                            待驗證會員
+                                        </td>
+                                        <td>
+                                            黃妮娜測試用
+                                        </td>
+                                        <td>
+                                            0909090909
+                                        </td>
+                                        <td></td>
+                                        <td style="width: 25%; word-break: break-all; word-wrap: break-word;">
+                                            nina.huang@telexpress.com
+                                        </td>
+                                        <td><button onclick="RegisterMail(&#39;1bd45c45-85b5-44af-a8b9-3831ef60633e&#39;)">重寄驗證信</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            2
+                                        </td>
+                                        <td style="width: 12%; word-break: break-all; word-wrap: break-word;">
+                                            <a href="http://mjncrm-qa.3rdchannel.com.tw/BackWeb/Member/MemberInfo?MemberID=42241303-349b-428c-805c-17bb5521dccc">Z0020884</a>
+                                        </td>
+                                        <td>
+                                            一般會員
+                                        </td>
+                                        <td>
+                                            摳手機手
+                                        </td>
+                                        <td>
+                                            0953366995
+                                        </td>
+                                        <td></td>
+                                        <td style="width: 25%; word-break: break-all; word-wrap: break-word;">
+                                            ioq45121@dsiay.com
+                                        </td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            3
+                                        </td>
+                                        <td style="width: 12%; word-break: break-all; word-wrap: break-word;">
+                                            <a href="http://mjncrm-qa.3rdchannel.com.tw/BackWeb/Member/MemberInfo?MemberID=32804c76-cc84-4134-b12f-ad802676d15f">Z0020882</a>
+                                        </td>
+                                        <td>
+                                            VIP會員
+                                        </td>
+                                        <td>
+                                            摳莎發瑞
+                                        </td>
+                                        <td>
+                                            0953366995
+                                        </td>
+                                        <td></td>
+                                        <td style="width: 25%; word-break: break-all; word-wrap: break-word;">
+                                            bmv32577@dsiay.com
+                                        </td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            4
+                                        </td>
+                                        <td style="width: 12%; word-break: break-all; word-wrap: break-word;">
+                                            <a href="http://mjncrm-qa.3rdchannel.com.tw/BackWeb/Member/MemberInfo?MemberID=f36216de-60fb-4633-883f-063944a37856">Z0020881</a>
+                                        </td>
+                                        <td>
+                                            一般會員
+                                        </td>
+                                        <td>
+                                            摳摳手機驗證
+                                        </td>
+                                        <td>
+                                            0953366995
+                                        </td>
+                                        <td></td>
+                                        <td style="width: 25%; word-break: break-all; word-wrap: break-word;">
+                                            pqv30537@dsiay.com
+                                        </td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            5
+                                        </td>
+                                        <td style="width: 12%; word-break: break-all; word-wrap: break-word;">
+                                            <a href="http://mjncrm-qa.3rdchannel.com.tw/BackWeb/Member/MemberInfo?MemberID=e0c1a8cb-13d8-436b-bc8d-2a052cd8f71a">Z0020880</a>
+                                        </td>
+                                        <td>
+                                            一般會員
+                                        </td>
+                                        <td>
+                                            摳摳
+                                        </td>
+                                        <td>
+                                            0953366995
+                                        </td>
+                                        <td></td>
+                                        <td style="width: 25%; word-break: break-all; word-wrap: break-word;">
+                                            szo72386@dsiay.com
+                                        </td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            6
+                                        </td>
+                                        <td style="width: 12%; word-break: break-all; word-wrap: break-word;">
+                                            <a href="http://mjncrm-qa.3rdchannel.com.tw/BackWeb/Member/MemberInfo?MemberID=0fd3fb0e-7ea0-4505-a179-67eadcd9eeb3">Z0020878</a>
+                                        </td>
+                                        <td>
+                                            VIP會員
+                                        </td>
+                                        <td>
+                                            羅阿嘉
+                                        </td>
+                                        <td>
+                                            0932151922
+                                        </td>
+                                        <td></td>
+                                        <td style="width: 25%; word-break: break-all; word-wrap: break-word;">
+                                            loyungchia96@gmail.com
+                                        </td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            7
+                                        </td>
+                                        <td style="width: 12%; word-break: break-all; word-wrap: break-word;">
+                                            <a href="http://mjncrm-qa.3rdchannel.com.tw/BackWeb/Member/MemberInfo?MemberID=1c1dd8c2-66bd-403e-9b89-fee35a6097d5">Z0020877</a>
+                                        </td>
+                                        <td>
+                                            待驗證會員
+                                        </td>
+                                        <td>
+                                            大霧
+                                        </td>
+                                        <td>
+                                            0912345685
+                                        </td>
+                                        <td></td>
+                                        <td style="width: 25%; word-break: break-all; word-wrap: break-word;">
+                                            ASD@CC.CC
+                                        </td>
+                                        <td><button onclick="RegisterMail(&#39;1c1dd8c2-66bd-403e-9b89-fee35a6097d5&#39;)">重寄驗證信</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            8
+                                        </td>
+                                        <td style="width: 12%; word-break: break-all; word-wrap: break-word;">
+                                            <a href="http://mjncrm-qa.3rdchannel.com.tw/BackWeb/Member/MemberInfo?MemberID=af27367a-fa1c-4e43-948f-db69fc920cee">Z0020876</a>
+                                        </td>
+                                        <td>
+                                            待驗證會員
+                                        </td>
+                                        <td>
+                                            大霧
+                                        </td>
+                                        <td>
+                                            0912345695
+                                        </td>
+                                        <td></td>
+                                        <td style="width: 25%; word-break: break-all; word-wrap: break-word;">
+                                            ACB@CC.CC
+                                        </td>
+                                        <td><button onclick="RegisterMail(&#39;af27367a-fa1c-4e43-948f-db69fc920cee&#39;)">重寄驗證信</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            9
+                                        </td>
+                                        <td style="width: 12%; word-break: break-all; word-wrap: break-word;">
+                                            <a href="http://mjncrm-qa.3rdchannel.com.tw/BackWeb/Member/MemberInfo?MemberID=506ab9f1-e1c8-4387-9232-724a196d0023">Z0020875</a>
+                                        </td>
+                                        <td>
+                                            VIP會員
+                                        </td>
+                                        <td>
+                                            白白
+                                        </td>
+                                        <td>
+                                            0922219306
+                                        </td>
+                                        <td></td>
+                                        <td style="width: 25%; word-break: break-all; word-wrap: break-word;">
+                                            hsinyupai@gmail.com
+                                        </td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            10
+                                        </td>
+                                        <td style="width: 12%; word-break: break-all; word-wrap: break-word;">
+                                            <a href="http://mjncrm-qa.3rdchannel.com.tw/BackWeb/Member/MemberInfo?MemberID=be3ef608-3fcf-4101-9e47-8fe95ec04c7b">Z0020874</a>
+                                        </td>
+                                        <td>
+                                            一般會員
+                                        </td>
+                                        <td>
+                                            一二三四五六七八九十一二三四五六七八九十
+                                        </td>
+                                        <td>
+                                            0934051376
+                                        </td>
+                                        <td></td>
+                                        <td style="width: 25%; word-break: break-all; word-wrap: break-word;">
+                                            ly001522@gmail.com
+                                        </td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            11
+                                        </td>
+                                        <td style="width: 12%; word-break: break-all; word-wrap: break-word;">
+                                            <a href="http://mjncrm-qa.3rdchannel.com.tw/BackWeb/Member/MemberInfo?MemberID=4ed54a9a-3c1f-49db-964e-0379ebe6d6b5">Z0020871</a>
+                                        </td>
+                                        <td>
+                                            一般會員
+                                        </td>
+                                        <td>
+                                            六六
+                                        </td>
+                                        <td>
+                                            0934051376
+                                        </td>
+                                        <td></td>
+                                        <td style="width: 25%; word-break: break-all; word-wrap: break-word;">
+                                            ly001522
+                                        </td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            12
+                                        </td>
+                                        <td style="width: 12%; word-break: break-all; word-wrap: break-word;">
+                                            <a href="http://mjncrm-qa.3rdchannel.com.tw/BackWeb/Member/MemberInfo?MemberID=4750710b-9929-4d6e-89ab-6e55ee6e71ad">Z0020870</a>
+                                        </td>
+                                        <td>
+                                            待驗證會員
+                                        </td>
+                                        <td>
+                                            哈哈哈
+                                        </td>
+                                        <td>
+                                            0988321543
+                                        </td>
+                                        <td></td>
+                                        <td style="width: 25%; word-break: break-all; word-wrap: break-word;">
+                                            Lynn.cheng@telexpress.com
+                                        </td>
+                                        <td><button onclick="RegisterMail(&#39;4750710b-9929-4d6e-89ab-6e55ee6e71ad&#39;)">重寄驗證信</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            13
+                                        </td>
+                                        <td style="width: 12%; word-break: break-all; word-wrap: break-word;">
+                                            <a href="http://mjncrm-qa.3rdchannel.com.tw/BackWeb/Member/MemberInfo?MemberID=f77382e6-1a09-4a97-92fe-0a056b8d23c3">Z0020869</a>
+                                        </td>
+                                        <td>
+                                            待驗證會員
+                                        </td>
+                                        <td>
+                                            祭
+                                        </td>
+                                        <td>
+                                            0912345667
+                                        </td>
+                                        <td></td>
+                                        <td style="width: 25%; word-break: break-all; word-wrap: break-word;">
+                                            tsuyoshiwb2@gmail.com
+                                        </td>
+                                        <td><button onclick="RegisterMail(&#39;f77382e6-1a09-4a97-92fe-0a056b8d23c3&#39;)">重寄驗證信</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            14
+                                        </td>
+                                        <td style="width: 12%; word-break: break-all; word-wrap: break-word;">
+                                            <a href="http://mjncrm-qa.3rdchannel.com.tw/BackWeb/Member/MemberInfo?MemberID=cbf6d732-414e-4749-a3a4-3b415d068823">Z0020868</a>
+                                        </td>
+                                        <td>
+                                            一般會員
+                                        </td>
+                                        <td>
+                                            測試十
+                                        </td>
+                                        <td>
+                                            0910228533
+                                        </td>
+                                        <td></td>
+                                        <td style="width: 25%; word-break: break-all; word-wrap: break-word;">
+                                            seikyo1208@yahoo.com.tw
+                                        </td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            15
+                                        </td>
+                                        <td style="width: 12%; word-break: break-all; word-wrap: break-word;">
+                                            <a href="http://mjncrm-qa.3rdchannel.com.tw/BackWeb/Member/MemberInfo?MemberID=2422152f-8987-4118-9f78-4327c3c8037a">Z0020859</a>
+                                        </td>
+                                        <td>
+                                            一般會員
+                                        </td>
+                                        <td>
+                                            張尹繽
+                                        </td>
+                                        <td>
+                                            0975212980
+                                        </td>
+                                        <td></td>
+                                        <td style="width: 25%; word-break: break-all; word-wrap: break-word;">
+                                            ebeb2334@gmail.com
+                                        </td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            16
+                                        </td>
+                                        <td style="width: 12%; word-break: break-all; word-wrap: break-word;">
+                                            <a href="http://mjncrm-qa.3rdchannel.com.tw/BackWeb/Member/MemberInfo?MemberID=f136d80c-ee4c-4684-82ce-67a49a50edcb">Z0020855</a>
+                                        </td>
+                                        <td>
+                                            一般會員
+                                        </td>
+                                        <td>
+                                            王郁婷
+                                        </td>
+                                        <td>
+                                            0921934003
+                                        </td>
+                                        <td></td>
+                                        <td style="width: 25%; word-break: break-all; word-wrap: break-word;">
+                                            hiniki9@gmail.com
+                                        </td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            17
+                                        </td>
+                                        <td style="width: 12%; word-break: break-all; word-wrap: break-word;">
+                                            <a href="http://mjncrm-qa.3rdchannel.com.tw/BackWeb/Member/MemberInfo?MemberID=584df268-2438-4ed6-a282-26aa4b206138">Z0020854</a>
+                                        </td>
+                                        <td>
+                                            VIP會員
+                                        </td>
+                                        <td>
+                                            測五三
+                                        </td>
+                                        <td>
+                                            0934051376
+                                        </td>
+                                        <td></td>
+                                        <td style="width: 25%; word-break: break-all; word-wrap: break-word;">
+                                            lin.yen15@gmail.coma
+                                        </td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            18
+                                        </td>
+                                        <td style="width: 12%; word-break: break-all; word-wrap: break-word;">
+                                            <a href="http://mjncrm-qa.3rdchannel.com.tw/BackWeb/Member/MemberInfo?MemberID=3405dd1d-8bf2-4278-a577-23087b56a344">Z0020850</a>
+                                        </td>
+                                        <td>
+                                            待驗證會員
+                                        </td>
+                                        <td>
+                                            扣測
+                                        </td>
+                                        <td>
+                                            0988888888
+                                        </td>
+                                        <td></td>
+                                        <td style="width: 25%; word-break: break-all; word-wrap: break-word;">
+                                            cazelkitty@yahoobb.com.tw
+                                        </td>
+                                        <td><button onclick="RegisterMail(&#39;3405dd1d-8bf2-4278-a577-23087b56a344&#39;)">重寄驗證信</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            19
+                                        </td>
+                                        <td style="width: 12%; word-break: break-all; word-wrap: break-word;">
+                                            <a href="http://mjncrm-qa.3rdchannel.com.tw/BackWeb/Member/MemberInfo?MemberID=893efe04-3675-43d4-a73a-e0357ba6cbb0">Z0020849</a>
+                                        </td>
+                                        <td>
+                                            VIP會員
+                                        </td>
+                                        <td>
+                                            扣咪
+                                        </td>
+                                        <td>
+                                            0922444555
+                                        </td>
+                                        <td></td>
+                                        <td style="width: 25%; word-break: break-all; word-wrap: break-word;">
+                                            cazelkitty@gmail.com.cc
+                                        </td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            20
+                                        </td>
+                                        <td style="width: 12%; word-break: break-all; word-wrap: break-word;">
+                                            <a href="http://mjncrm-qa.3rdchannel.com.tw/BackWeb/Member/MemberInfo?MemberID=3b1b6715-c197-4871-ae63-44506ef21891">Z0020847</a>
+                                        </td>
+                                        <td>
+                                            一般會員
+                                        </td>
+                                        <td>
+                                            扣扣姐
+                                        </td>
+                                        <td>
+                                            0911111111
+                                        </td>
+                                        <td></td>
+                                        <td style="width: 25%; word-break: break-all; word-wrap: break-word;">
+                                            cazelkitty@yahoo.com.tw
+                                        </td>
+                                        <td></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+
+
+
+                            <div id="divPaging" class="page_box">
+                                <ul>
+                                    <li class="current">1</li>
+                                    <li onclick="goto(2)">2</li>
+                                    <li onclick="goto(3)">3</li>
+                                    <li onclick="goto(4)">4</li>
+                                    <li onclick="goto(5)">5</li>
+                                    <li onclick="goto(6)">6</li>
+                                    <li onclick="goto(parseInt($(&#39;#pagecurrentPage&#39;).val()) +1)">&gt;</li>
+                                </ul>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+
+
+
+
